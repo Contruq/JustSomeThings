@@ -1,4 +1,3 @@
-local Item = nil
 
 for i,RItem in pairs(game.ReplicatedStorage.Items:GetChildren()) do
 	

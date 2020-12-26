@@ -1,3 +1,5 @@
+local Item = nil
+
 for i,RItem in pairs(game.ReplicatedStorage.Items:GetChildren()) do
 	
 	if string.lower(RItem.Name) == string.lower(ItemName) then
